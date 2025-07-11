@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio </title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Udar</a>
+
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="/image/logo.jpg" alt="" class="animate-img">
+            <style>
+                .animate-img {
+                    opacity: 0;
+                    transform: translateY(-50px);
+                    animation: imgDrop 1s ease-out forwards;
+                }
+                @keyframes imgDrop {
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            </style>
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Udar</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p> I don't like anger, fighting, domination, arrogance, jealousy  <br>
+                Problem Solver bug fixer error fixer MMH</p> 
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@Mehdiofficial-f1z"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/alvirahmedmehediofficial"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mdmehedihasan7411/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+</body>
+</html>
